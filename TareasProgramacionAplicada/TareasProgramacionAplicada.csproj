@@ -35,6 +35,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -65,10 +67,92 @@
     <Compile Include="Tarea2\JaggedFuncion.cs" />
     <Compile Include="Tarea2\NumeroCadena.cs" />
     <Compile Include="Tarea2\SalonClases.cs" />
+    <Compile Include="Tarea3\ClaseEstudiantes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarea3\ClaseEstudiantes.Designer.cs">
+      <DependentUpon>ClaseEstudiantes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tarea3\EjerciciosTarea3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarea3\EjerciciosTarea3.Designer.cs">
+      <DependentUpon>EjerciciosTarea3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tarea3\InventarioTienda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarea3\InventarioTienda.Designer.cs">
+      <DependentUpon>InventarioTienda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tarea3\MascotaDueño.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarea3\MascotaDueño.Designer.cs">
+      <DependentUpon>MascotaDueño.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tarea3\Poligonos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarea3\Poligonos.Designer.cs">
+      <DependentUpon>Poligonos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tarea3\ProductosTienda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarea3\ProductosTienda.Designer.cs">
+      <DependentUpon>ProductosTienda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tarea3\PropiedadesPoligono.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarea3\PropiedadesPoligono.Designer.cs">
+      <DependentUpon>PropiedadesPoligono.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tarea3\TiposNeumaticos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarea3\TiposNeumaticos.Designer.cs">
+      <DependentUpon>TiposNeumaticos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tarea3\ToStringPoligono.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarea3\ToStringPoligono.Designer.cs">
+      <DependentUpon>ToStringPoligono.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Tarea3\ClaseEstudiantes.resx">
+      <DependentUpon>ClaseEstudiantes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarea3\EjerciciosTarea3.resx">
+      <DependentUpon>EjerciciosTarea3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarea3\InventarioTienda.resx">
+      <DependentUpon>InventarioTienda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarea3\MascotaDueño.resx">
+      <DependentUpon>MascotaDueño.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarea3\Poligonos.resx">
+      <DependentUpon>Poligonos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarea3\ProductosTienda.resx">
+      <DependentUpon>ProductosTienda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarea3\PropiedadesPoligono.resx">
+      <DependentUpon>PropiedadesPoligono.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarea3\TiposNeumaticos.resx">
+      <DependentUpon>TiposNeumaticos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarea3\ToStringPoligono.resx">
+      <DependentUpon>ToStringPoligono.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

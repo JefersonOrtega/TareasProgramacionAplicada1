@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using TareasProgramacionAplicada.Tarea1;
 using TareasProgramacionAplicada.Tarea2;
+using TareasProgramacionAplicada.Tarea3;
 
 namespace TareasProgramacionAplicada
 {
@@ -20,7 +22,8 @@ namespace TareasProgramacionAplicada
             //todo: aqui van las opciones a seleccionar;
             Console.WriteLine("1.Tarea 1");
             Console.WriteLine("2.Tarea 2");
-            Console.WriteLine("3.Salir");
+            Console.WriteLine("3.Tarea 3");
+            Console.WriteLine("4.Salir");
             opcion = Console.ReadLine();
             op1 = Convert.ToInt32(opcion);
 
@@ -245,13 +248,23 @@ namespace TareasProgramacionAplicada
 
                         break;
                     }
+
                 case 3:
+                    {
+                        Application.EnableVisualStyles();
+                        Application.SetCompatibleTextRenderingDefault(false);
+                        Application.Run(new EjerciciosTarea3());
+                        break;
+                    }
+                case 4:
                     {
 
                         break;
                     }
 
             }
+            
+
 
 
 
